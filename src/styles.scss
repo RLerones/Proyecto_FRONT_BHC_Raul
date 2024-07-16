@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+/* Reset básico para eliminar márgenes y rellenos predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el contenedor principal */
+.header {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el título h1 */
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+.mat-elevation-z8 {
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.mat-elevation-z8 th, .mat-elevation-z8 td {
+  padding: 8px 16px;
+  text-align: left;
+}
+
+/* Estilos para el formulario */
+.form-container {
+  margin-bottom: 10px;
+}
+
+.form-field {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el filtro */
+.filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.filter-field {
+  flex: 1;
+  margin-right: 100px;
+}
+
+.filter-button {
+  margin-left: 10px;
+}
